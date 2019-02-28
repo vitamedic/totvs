@@ -17,6 +17,7 @@
 user function vit042()
 cperg:="PERGVIT042"
 _pergsx1()
+
 if pergunte(cperg,.t.) .and.;
 	msgyesno("Confirma acerto do SD5 pelo SD2?")
 	processa({|| _acerta()})
